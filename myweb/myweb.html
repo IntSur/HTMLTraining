@@ -7,7 +7,7 @@
     <meta name="auther" content="IntSur">
     <meta name="keywords" content="HTML,CSS,JavaScript">
     <title>Fision Studio</title>
-    <link rel="icon" href="src/Fision_Studio.png" />
+    <link rel="icon" href="./src/Fision_Studio.png" />
 </head>
 <body>
     <center> 
@@ -21,13 +21,13 @@
         </nav>
     </header>
     <p>Hi, there! <br> 这里是Fision Studio，我们是一个充满创造力、想象力、艺术表达力的团体。<br> 我们不仅创作2D内容，还致力于空间计算的3D内容创作。</p>
-
+    
     <main>
         <section id="me", aria-labelledby="about-me">
             <h2>关于我</h2>
             <p>我是一名全栈开发工程师。会点UI设计，懂得UX设计。热衷于前端动画的实现，同时关注后端功能的技术开发。</p>
             <figure>
-                <img src="src/Shanghai_Hackthon.png" alt="我的头像，占位图" style="width: 400px">
+                <img src="./src/Shanghai_Hackthon.png" alt="我的头像，占位图" style="width: 400px">
                 <figcaption>IntSur在上海MR黑客松</figcaption>
             </figure>
             <dl>
@@ -35,28 +35,46 @@
                 <dt>方向</dt><dd>前端 / 交互</dd>
                 <dt>位置</dt><dd>地球上某个角落</dd>
             </dl>
-        </section>
-
-        <section id="you" aria-labelledby="about-you">
-            <h2>关于你</h2>
             <article>
-                <h3>示例作品1</h3>
-                <p>项目链接：
-                <a href="#" aria-disabled="true">（未来补上 GitHub 或在线演示）</a>
-                </p>
-            </article>
-        </section>
-            <article>
-                <h3>示例作品2</h3>
+                <h3>作品1</h3>
                 <p>项目链接：
                     <a href="#" aria-disabled="true">（未来补上 GitHub 或在线演示）</a>
                 </p>
             </article>
+            <article>
+                <h3>作品2</h3>
+                <p>项目链接：
+                    <a href="#" aria-disabled="true">（未来补上 GitHub 或在线演示）</a>
+                </p>
+            </article>
+        </section>
+
+        <section id="you" aria-labelledby="about-you">
+            <h2>关于你</h2>
+            <form action="#" method="post" aria-labelledby="resume-form">
+                <p>向我们介绍一下你自己</p>
+                <div>
+                    <label for="yourname">你的名字</label>
+                    <input type="text" name="yourname" id="yourname" placeholder="我们怎么称呼你">
+                </div>
+                <div>
+                    <label for="youremail">你的邮箱</label>
+                    <input type="email" name="youremail" id="youremail" placeholder="我们怎么联系到你">
+                </div>
+                <div>
+                    <label for="message">留言</label>
+                    <textarea name="message" id="message" rows="5" placeholder="想对我说什么"></textarea>
+                </div>
+                <button type="submit">提交</button>
+                <button type="reset">清空</button>
+            </form>
+        </section>
 
         <section id="we" aria-labelledby="about-us">
-            <h2>通过以下方式联系到我们</h2>
-            <p>mail<a href="mailto:intsur@163.com">intsur@163.com</a></p>
+            <h2>关于我们</h2>
+            <p>mail: <a href="mailto:intsur@163.com">intsur@163.com</a></p>
             <p>GitHub: <a href="https://github.com/intsur" target="_blank" rel="noopener">github.com/intsur</a></p>
+            <p><a href="./src/Shanghai_Hackthon.png" download="">我们的名片</a></p>
         </section>
     </main>
 
